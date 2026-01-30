@@ -25,6 +25,17 @@ function toggleContent(id) {
     // PLAY AUDIO hanya untuk tombol pertama (c1)
     if (id === "c1") {
       startAudio();
+    }if (box.style.display === "block") {
+  // tutup konten
+  if (id === "c1") {
+    audio.pause();           // hentikan audio
+    audio.currentTime = 0;   // reset ke awal
+  }
+} else {
+  // buka konten
+  if (id === "c1") {
+    audio.play().catch(...); // play audio
+  }
     }
   }
 }
