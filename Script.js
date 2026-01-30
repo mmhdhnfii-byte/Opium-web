@@ -1,18 +1,18 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const buttons = document.querySelectorAll(".box");
+function toggleContent(id) {
+  const box = document.getElementById(id);
 
-  buttons.forEach(btn => {
-    btn.addEventListener("click", () => {
-      const target = btn.getAttribute("data-target");
-      const content = document.getElementById(target);
+  // Jika elemen tidak ditemukan (ID salah)
+  if (!box) {
+    console.error("ID tidak ditemukan:", id);
+    return;
+  }
 
-      if (!content) return;
-
-      if (content.style.display === "block") {
-        content.style.display = "none";
-      } else {
-        content.style.display = "block";
-      }
-    });
-  });
-});
+  // Jika sudah muncul → sembunyikan
+  if (box.style.display === "block") {
+    box.style.display = "none";
+  } 
+  // Jika masih sembunyi → tampilkan
+  else {
+    box.style.display = "block";
+  }
+}
