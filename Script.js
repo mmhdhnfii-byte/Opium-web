@@ -1,5 +1,5 @@
 // AUDIO SECTION 1
-let audioC1 = new Audio("lagu.mp3"); // pastikan file ada di folder yang sama
+let audioC1 = new Audio("opium.mp3.mp3"); // pastikan file ada di folder yang sama
 audioC1.loop = true;
 
 const toggleButtons = document.querySelectorAll(".toggleBtn");
