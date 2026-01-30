@@ -1,35 +1,55 @@
-<!DOCTYPE html><html lang="id">
+<!DOCTYPE html>
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>All About Opium</title>  <link rel="stylesheet" href="Style.css" />
+  <title>All About Opium</title>
+  <link rel="stylesheet" href="Style.css" />
 </head>
-<body><div class="container">
-  <h1>All About Opium</h1>  <h2>Apa Itu Opium?</h2>
-  <div class="box" onclick="toggleContent('c1')">Lihat Penjelasan</div>
-  <div id="c1" class="content">
-    Opium adalah zat narkotika alami yang berasal dari getah tanaman poppy. Bersifat adiktif dan berbahaya bagi kesehatan fisik dan mental.
-  </div>  <h2>Bahaya Opium</h2>
-  <div class="box" onclick="toggleContent('c2')">Lihat Penjelasan</div>
-  <div id="c2" class="content">
-    - Menyebabkan ketergantungan berat<br>
-    - Merusak otak dan sistem saraf<br>
-    - Mengganggu pernapasan dan jantung<br>
-    - Risiko overdosis hingga kematian
-  </div>  <h2>Ciri-ciri Pengguna Opium</h2>
-  <div class="box" onclick="toggleContent('c3')">Lihat Penjelasan</div>
-  <div id="c3" class="content">
-    - Mengantuk berlebihan<br>
-    - Nafsu makan menurun<br>
-    - Mata sayu dan pupil mengecil<br>
-    - Emosi tidak stabil<br>
-    - Menarik diri dari lingkungan sosial
-  </div>  <h2>Pencegahan & Penanganan</h2>
-  <div class="box" onclick="toggleContent('c4')">Lihat Penjelasan</div>
-  <div id="c4" class="content">
-    - Edukasi bahaya opium<br>
-    - Hindari pergaulan pengguna narkoba<br>
-    - Dorong pengguna mencari bantuan medis<br>
-    - Laporkan jika mengetahui peredaran opium
-  </div></div>  <script src="Script.js"></script></body>
+<body>
+  <div class="container">
+    <h1>All About Opium</h1>
+
+    <!-- Section 1 -->
+    <h2>Apa Itu Opium?</h2>
+    <button class="toggleBtn" data-target="c1">Lihat Penjelasan</button>
+    <div id="c1" class="content">
+      Opium adalah zat narkotika alami yang berasal dari getah tanaman poppy. Bersifat adiktif dan berbahaya bagi kesehatan fisik dan mental.
+    </div>
+
+    <!-- Section 2 -->
+    <h2>Bahaya Opium</h2>
+    <button class="toggleBtn" data-target="c2">Lihat Penjelasan</button>
+    <div id="c2" class="content">
+      - Menyebabkan ketergantungan berat<br>
+      - Merusak otak dan sistem saraf<br>
+      - Mengganggu pernapasan dan jantung<br>
+      - Risiko overdosis hingga kematian
+    </div>
+
+    <!-- Section 3 -->
+    <h2>Ciri-ciri Pengguna Opium</h2>
+    <button class="toggleBtn" data-target="c3">Lihat Penjelasan</button>
+    <div id="c3" class="content">
+      - Mengantuk berlebihan<br>
+      - Nafsu makan menurun<br>
+      - Mata sayu dan pupil mengecil<br>
+      - Emosi tidak stabil<br>
+      - Menarik diri dari lingkungan sosial
+    </div>
+
+    <!-- Section 4 -->
+    <h2>Pencegahan & Penanganan</h2>
+    <button class="toggleBtn" data-target="c4">Lihat Penjelasan</button>
+    <div id="c4" class="content">
+      - Edukasi bahaya opium<br>
+      - Hindari pergaulan pengguna narkoba<br>
+      - Dorong pengguna mencari bantuan medis<br>
+      - Laporkan jika mengetahui peredaran opium
+    </div>
+
+  </div>
+
+  <script src="Script.js"></script>
+</body>
 </html>
