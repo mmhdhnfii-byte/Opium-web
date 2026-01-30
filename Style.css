@@ -1,50 +1,13 @@
-body {
-  font-family: 'Georgia', serif;
-  background: #d99b7a;
-  padding: 20px;
-  color: #3a1f14;
-}
+body { font-family: 'Georgia', serif; background: linear-gradient(180deg, #4a0000, #8b0000, #b30000); /* merah darah */ padding: 20px; color: #3a1f14; }
 
-.container {
-  max-width: 700px;
-  margin: auto;
-  background: #fffff0;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+.container { max-width: 700px; margin: auto; background: #f2e7d8; /* putih kotor */ padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
 
-h1 {
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 10px;
-}
+h1 { text-align: center; font-size: 32px; margin-bottom: 10px; }
 
-h2 {
-  margin-top: 25px;
-  font-size: 22px;
-}
+h2 { margin-top: 25px; font-size: 22px; }
 
-.box {
-  background: #000;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 10px;
-  transition: 0.3s;
-}
+.box { background: #4b2e21; /* coklat tua */ color: #fff; padding: 10px 15px; border-radius: 8px; cursor: pointer; margin-top: 10px; transition: 0.3s; }
 
-.box:hover {
-  opacity: 0.7;
-}
+.box:hover { opacity: 0.7; }
 
-.content {
-  display: none;
-  background: #f2f0ef
-  padding: 15px;
-  margin-top: 10px;
-  border-radius: 8px;
-  border-left: 4px solid #000;
-  transition: all 0.3s ease;
-}
+.content { display: none; background: #f7efe3; /* putih kusam */ padding: 15px; margin-top: 10px; border-radius: 8px; border-left: 4px solid #4b2e21; transition: all 0.3s ease; }
