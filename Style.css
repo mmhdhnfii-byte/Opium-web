@@ -1,13 +1,61 @@
-body { font-family: 'impact', 'arial black', sans-serif; color:#1a1a1a;  background: linear-gradient(180deg, #4a0000, #8b0000, #b30000); /* merah darah */ padding: 20px; color: #3a1f14; }
+/* BODY / BACKGROUND MERAH DARAH */
+body {
+  font-family: 'Impact', 'Arial Black', sans-serif; /* font kasar */
+  background: linear-gradient(180deg, #4a0000, #8b0000, #b30000);
+  padding: 20px;
+  color: #fff;
+  margin: 0;
+}
 
-.container { max-width: 700px; margin: auto; background: #f2e7d8; /* putih kotor */ padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+/* CONTAINER PUTIH KOTOR */
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: #f2e7d8; /* putih kotor */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
 
-h1 { text-align: center; font-size: 32px; margin-bottom: 10px; }
+/* HEADINGS */
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+}
 
-h2 { margin-top: 25px; font-size: 22px; }
+h2 {
+  margin-top: 25px;
+  font-size: 22px;
+  color: #fff;
+}
 
-.box { background: #4b2e21; /* coklat tua */ color: #fff; padding: 10px 15px; border-radius: 8px; cursor: pointer; margin-top: 10px; transition: 0.3s; }
+/* BUTTON COKLAT TUA */
+.toggleBtn {
+  background: #4b2e21; /* coklat tua */
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  font-size: 16px;
+  transition: 0.3s;
+}
 
-.box:hover { opacity: 0.7; }
+.toggleBtn:hover {
+  opacity: 0.7;
+}
 
-.content { display: none; background: #f7efe3; /* putih kusam */ padding: 15px; margin-top: 10px; border-radius: 8px; border-left: 4px solid #4b2e21; transition: all 0.3s ease; }
+/* KONTEN TERTUTUP / PUTIH KUSAM */
+.content {
+  display: none;
+  background: #f7efe3; /* putih kusam */
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border-left: 4px solid #4b2e21;
+  transition: all 0.3s ease;
+  color: #3a1f14;
+}
