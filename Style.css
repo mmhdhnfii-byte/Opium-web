@@ -3,7 +3,7 @@ body {
   font-family: 'Impact', 'Arial Black', sans-serif; /* font kasar */
   background: linear-gradient(180deg, #4a0000, #8b0000, #b30000);
   padding: 20px;
-  color: #fff;
+  color: #000;
   margin: 0;
 }
 
@@ -34,7 +34,7 @@ h2 {
 /* BUTTON COKLAT TUA */
 .toggleBtn {
   background: #4b2e21; /* coklat tua */
-  color: #fff;
+  color: #000;
   border: none;
   padding: 10px 15px;
   border-radius: 8px;
