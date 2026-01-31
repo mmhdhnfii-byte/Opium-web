@@ -1,4 +1,4 @@
-let audioC1 = new Audio("kota-ini.mp3"); 
+let audioC1 = new Audio("kota-ini.mp3");
 audioC1.loop = true;
 
 const toggleButtons = document.querySelectorAll(".toggleBtn");
@@ -10,10 +10,11 @@ toggleButtons.forEach(btn => {
 
     if (!content) return;
 
-    // toggle display
+    // Toggle tampilan
     if (content.style.display === "block") {
       content.style.display = "none";
 
+      // stop audio c1
       if (targetId === "c1") {
         audioC1.pause();
         audioC1.currentTime = 0;
@@ -22,6 +23,7 @@ toggleButtons.forEach(btn => {
     } else {
       content.style.display = "block";
 
+      // play audio c1
       if (targetId === "c1") {
         audioC1.play().catch(err => console.log("Audio gagal play:", err));
       }
